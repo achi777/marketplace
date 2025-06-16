@@ -1,0 +1,67 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+/* Custom Amazon-like marketplace styles */
+:root {
+    --amazon-orange: #ff9900;
+    --amazon-dark-blue: #232f3e;
+    --amazon-light-blue: #37475a;
+    --amazon-light-gray: #f3f3f3;
+}
+
+body {
+    font-family: 'Amazon Ember', Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.search-bar {
+    border-radius: 4px 0 0 4px;
+}
+
+.search-button {
+    background-color: var(--amazon-orange);
+    border-color: var(--amazon-orange);
+    border-radius: 0 4px 4px 0;
+}
+
+.search-button:hover {
+    background-color: #e68900;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.price {
+    color: #B12704;
+    font-weight: bold;
+}
+
+.category-nav {
+    background-color: var(--amazon-light-blue);
+}
+
+.footer {
+    background-color: var(--amazon-dark-blue);
+    color: white;
+}
+
+.btn-amazon {
+    background-color: var(--amazon-orange);
+    border-color: var(--amazon-orange);
+    color: #000;
+}
+
+.btn-amazon:hover {
+    background-color: #e68900;
+    border-color: #e68900;
+}
